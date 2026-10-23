@@ -15,9 +15,3 @@ some vms will get through so test it on your own setup
 use a c++17 compiler and add src to your include path
 include the [vm header](src/vm.hpp) from your own program
 tested with zig on windows x64 and x86
-
-## credits
-
-vm and debugger checks adapted from [vmprotect](https://github.com/morvayo/VMProtect3.5.1)
-
-firmware parsing follows the [smbios specification](https://www.dmtf.org/standards/smbios) and [acpi specification](https://uefi.org/specifications)
